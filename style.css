@@ -1,0 +1,142 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0; /* Remove paddings padrão do body */
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center; /* Centraliza o texto inline dentro do body */
+}
+
+header {
+    background-color: #800080; /* Roxo */
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Centraliza os itens da lista de navegação */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto; /* Define margens esquerda e direita automáticas para centralizar o bloco */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Retorna o alinhamento do texto dentro da seção para a esquerda */
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #800080; /* Roxo */
+    border-bottom: 2px solid #800080;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.projeto {
+    margin-bottom: 1.5em;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left; /* Retorna o alinhamento do texto do projeto para a esquerda */
+}
+
+.projeto h3 {
+    color: #555;
+    margin-top: 0;
+}
+
+.projeto a {
+    display: inline-block;
+    background-color: #FF0000; /* Vermelho */
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 0.5em;
+}
+
+.projeto a:hover {
+    background-color: #DC143C; /* Vermelho mais escuro */
+}
+
+#contato ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Centraliza os itens da lista de contato */
+}
+
+#contato li {
+    margin-bottom: 0.5em;
+}
+
+#fotos .media-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; /* Centraliza as imagens e o GIF */
+}
+
+#fotos .media-container img {
+    width: 300px; /* Defina o tamanho desejado para as imagens */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+#fotos .media-container img:nth-child(-n+3) { /* Aplica estilos apenas às 3 primeiras imagens */
+    /* Você pode adicionar estilos específicos para as 3 imagens aqui, se necessário */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .social-links {
+    margin-bottom: 0.5em;
+}
+
+footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center; /* Adicione esta linha para centralizar os h2 */
+    color: #800080; /* Roxo */
+    border-bottom: 2px solid #800080;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
